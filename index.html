@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Diez</title>
+  <meta name="description" content="Сайт-визитка музыкальной школы">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <section class="promo">
+      <div class="container">
+        <header class="promo__header">
+          <div class="logo">Diez</div>
+          <nav class="menu">
+            <button class="menu__burger"></button>
+            <ul class="menu__list">
+              <li class="menu__item">Направления</li>
+              <li class="menu__item">О школе</li>
+              <li class="menu__item">Видео</li>
+              <li class="menu__item">Контакты</li>
+            </ul>
+          </nav>
+        </header>
+        <div class="promo__content">
+          <h1 class="promo__title">Diez — школа музыкального искусства</h1>
+          <p class="promo__description">Научим петь, играть на инструментах, не бояться сцены и получать удовольствие от музыки</p>
+        </div>
+        <div class="trial">
+          <h3 class="trial__title">Вводный урок</h3>
+          <div class="trial__description">Попробуй любые направления  бесплатно</div>
+          <form class="trial__form trial-form">
+            <input type="text" class="trial-form__name" value="Имя">
+            <input type="text" class="trial-form__phone" value="Телефон">
+            <select class="trial-form__directions" name="select_direction">
+              <option value="directions" selected>Направления</option>
+              <option value="guitar">Гитара</option>
+              <option value="vocal">Вокал</option>
+              <option value="piano">Фортепиано</option>
+              <option value="lecture">Лекции</option>
+            </select>
+            <button class="trial-form__button">ЗАПИСАТЬСЯ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="direction">
+        <div class="container">
+          <div class="block-title">
+            <h2 class="block-title__text">Растим музыкантов</h2>
+          </div>
+          <div class="direction__wrap">
+            <div class="direction__item">
+              <h3 class="direction__title">Гитара</h3>
+              <div class="direction__desc">Хочешь играть как Джими Хендрикс, Би Би Кинг или Андрес Сеговия— мы научим</div>
+              <div class="direction__price">1 урок от 800₽</div>
+            </div>
+            <div class="direction__item">
+              <h3 class="direction__title">Вокал</h3>
+              <div class="direction__desc">Академический, рок, эстрадный, джазовый </div>
+            </div>
+            <div class="direction__item">
+              <h3 class="direction__title">Фортепиано</h3>
+              <div class="direction__desc">Академический, рок, эстрадный, джазовый</div>
+            </div>
+            <div class="direction__item">
+              <h3 class="direction__title">Лекции</h3>
+              <div class="direction__desc">Подтяни свои знания в теории музыки</div>
+            </div>
+            <div class="direction__item">
+              <h3 class="direction__title">Все направления</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tempo"> 
+        <div class="container">
+          <div class="tempo__left">
+            <div class="block-title">
+              <h2 class="block-title__text">Задаем темп</h2>
+            </div>
+            <div class="tempo__card">
+              <h3 class="tempo__title">Состав</h3>
+              <div class="tempo__discription">Тебя будут обучать  профессионалы с высшим музыкальным образованием</div>
+            </div>
+            <div class="tempo__card">
+              <h3 class="tempo__title">Результат</h3>
+              <div class="tempo__discription">Выступи на отчетном концерте через три месяца обучения</div>
+            </div>
+          </div>
+          <div class="tempo__right">
+            <div class="tempo__card">
+              <h3 class="tempo__title">Студия</h3>
+              <div class="tempo__discription">Запиши свою песню в нашей студии звукозаписи, одна песня в месяц бесплатно</div>
+            </div>
+            <div class="tempo__card">
+              <div class="trial trial--yellow">
+                <h3 class="trial__title">Вводный урок</h3>
+                <div class="trial__description">Попробуй любые направления  бесплатно</div>
+                <form class="trial__form trial-form">
+                  <input type="text" class="trial-form__name" value="Имя">
+                  <input type="text" class="trial-form__phone" value="Телефон">
+                  <select class="trial-form__directions" name="select_direction">
+                    <option value="directions" selected>Направления</option>
+                    <option value="guitar">Гитара</option>
+                    <option value="vocal">Вокал</option>
+                    <option value="piano">Фортепиано</option>
+                    <option value="lecture">Лекции</option>
+                  </select>
+                  <button class="trial-form__button">ЗАПИСАТЬСЯ</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="container">
+          <div class="block-title">
+            <h2 class="block-title__text">В стенах школы</h2>
+          </div>
+          <div class="video__list">
+            <div class="video__item"></div>
+            <div class="video__item"></div>
+            <div class="video__item"></div>
+            <div class="video__item"></div>
+          </div>
+        </div>
+      </section>
+      <section class="location">
+        <div class="container">
+          <div class="block-title">
+            <h2 class="block-title__text">Ждем тебя</h2>
+          </div>
+          <div class="location__address">+7 (812) 566 56 56 СПБ, 6-я Линия ВО, 42</div>
+          <div class="location__map"></div>
+          <div class="trial trial--yellow">
+            <h3 class="trial__title">Вводный урок</h3>
+            <div class="trial__description">Попробуй любые направления  бесплатно</div>
+            <form class="trial__form trial-form">
+              <input type="text" class="trial-form__name" value="Имя">
+              <input type="text" class="trial-form__phone" value="Телефон">
+              <select class="trial-form__directions" name="select_direction">
+                <option value="directions" selected>Направления</option>
+                <option value="guitar">Гитара</option>
+                <option value="vocal">Вокал</option>
+                <option value="piano">Фортепиано</option>
+                <option value="lecture">Лекции</option>
+              </select>
+              <button class="trial-form__button">ЗАПИСАТЬСЯ</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="logo logo--footer">Diez</div>
+        <div class="social-media">
+          <ul class="social-media__list">
+            <li class="social-media__item">Направления</li>
+            <li class="social-media__item">О школе</li>
+            <li class="social-media__item">Видео</li>
+            <li class="social-media__item">Контакты</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
