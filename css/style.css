@@ -160,6 +160,7 @@
   color: #f9fcfc;
 }
 .direction__desc {
+  width: 85%;
   font-family: 'PT Sans';
   font-size: 16px;
   font-weight: 400;
@@ -237,6 +238,7 @@
   color: #f9fcfc;
 }
 .tempo__discription {
+  width: 80%;
   font-family: 'PT Sans';
   font-size: 16px;
   font-weight: 400;
