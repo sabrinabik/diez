@@ -12,6 +12,8 @@ $(document).ready(function() {
     $('.menu__list').slideToggle( "slow");
   });
 
+   
+
   var slickIsActive = false;
 
   checkSlider();
@@ -21,14 +23,16 @@ $(document).ready(function() {
   });
 
   function checkSlider(){
-
     if( $(window).width() < 1280 ) {
+      $('.menu__list').css("display", "none");
       if( slickIsActive === false ) {
         $("#slider").slick();
         slickIsActive = true;
       } 
     }
-    else {
+    else { 
+      $('.menu__list').show();
+        $('.menu__list').css("display", "flex");
       if( slickIsActive === true ) {
         $("#slider").slick("unslick");
         slickIsActive = false;
